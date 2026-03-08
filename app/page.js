@@ -241,28 +241,8 @@ export default function Page() {
             LieferRadar
           </div>
           <h1 style={{ margin: 0, fontSize: 42 }}>Dein Food Radar</h1>
-          <p style={{ margin: "12px 0 0", color: "#94a3b8" }}>
-            Stylische iPhone-Optik, MySQL-Anbindung und getrennte Felder für Lieferant und Verfasser.
-          </p>
         </div>
-
-        <div style={grid}>
-          <div style={statCard}>
-            <div style={{ color: "#94a3b8", fontSize: 14 }}>Einträge</div>
-            <div style={{ fontSize: 30, fontWeight: 800, marginTop: 6 }}>{stats.total}</div>
-          </div>
-          <div style={statCard}>
-            <div style={{ color: "#94a3b8", fontSize: 14 }}>Gut oder besser</div>
-            <div style={{ fontSize: 30, fontWeight: 800, marginTop: 6 }}>{stats.top}</div>
-          </div>
-          <div style={statCard}>
-            <div style={{ color: "#94a3b8", fontSize: 14 }}>Durchschnitt</div>
-            <div style={{ fontSize: 30, fontWeight: 800, marginTop: 6 }}>
-              {stats.total ? stats.avg.toFixed(1) : "–"}
-            </div>
-          </div>
-        </div>
-
+		
         <div style={layout}>
           <section style={panel}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12, marginBottom: 16 }}>
